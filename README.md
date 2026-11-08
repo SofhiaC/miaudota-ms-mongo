@@ -47,11 +47,14 @@ docker run --rm -p 3101:3101 --env-file .env sofhiachromiec/pjbl-usuarios:v1   #
 docker run --rm -p 3102:3102 --env-file .env sofhiachromiec/pjbl-adocao:v1   # Microsserviço de Adoção
 ```
 
-URLs na nuvem: *(preencher após o deploy)*
+URLs na nuvem (Azure Container Apps):
 
 | Serviço | URL pública | Swagger |
 |---|---|---|
-| Microsserviço de Usuários | _a preencher_ | _a preencher_/docs |
+| Microsserviço de Usuários | https://miaudota-usuarios.proudground-4968a7f1.canadacentral.azurecontainerapps.io | https://miaudota-usuarios.proudground-4968a7f1.canadacentral.azurecontainerapps.io/docs |
+| Microsserviço de Adoção | https://miaudota-adocao.proudground-4968a7f1.canadacentral.azurecontainerapps.io | https://miaudota-adocao.proudground-4968a7f1.canadacentral.azurecontainerapps.io/docs |
+
+O frontend publicado (Azure Static Web Apps) está em https://red-mushroom-01f218510.4.azurestaticapps.net.
 
 ### 2. Localmente com Node
 
